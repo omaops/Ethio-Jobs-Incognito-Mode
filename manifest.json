@@ -1,0 +1,17 @@
+{
+    "name": "Ethio-Jobs Incognito Mode",
+    "version": "1.0.1",
+    "description": "Gives you the privacy you need to browse on ethio-jobs website by changing the look and logo. This will give anyone who is looking at your screen the impression you are on some other website.",
+    "manifest_version": 3,
+    "author": "Tinbite Solomon",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Ethio-Jobs Incognito Mode",
+        "default_icon": "favicon32.png"
+    },
+    "content_scripts":[{
+        "matches": ["https://www.ethiojobs.net/*"],
+        "css": ["imain.css"],
+        "js": ["script.js"]
+    }]
+}

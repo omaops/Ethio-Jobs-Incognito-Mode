@@ -1,0 +1,65 @@
+/* Changes the purple of the top nav bar */
+div#topbar {
+    background: #646464;
+    color: #FFFFFF;
+}
+/* Changes the purple of the footer*/
+footer#footer {
+    background: #ffffff;
+    border-top: 5px solid #ffffff;
+    font-size: 15px;
+    padding: 20px 0 0;
+    /* margin-top: 25px; */
+    position: relative;
+    color: #fff;
+}
+
+/* Employees side orange tab on the right removed */
+.RecruiterSidebar{
+    background: none repeat scroll 0% 0% #bdbdbc;
+    transform: rotate(-90deg);
+    transform-origin: right top 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    float: left;
+    margin-left: 35px;
+}
+
+
+/* Changes left side save this search button */
+.btn.btn-blue {
+    background: #dadada;
+    border-color: #FFFFFF;
+    color: #333;
+    text-shadow: none;
+}
+
+/* Hover Button on the left bottom */
+.accessibility-btn__text {
+    color: #b9b9b9;
+
+}
+
+/* Hover Button on the left bottom */
+.accessibility-btn {
+
+    background-color: #b9b9b9;
+    border-color: #001aff;
+    color: #333;
+    text-shadow: none;
+    border: 1px solid #fff;
+    padding: 1px 2px;
+}
+
+/* Change all primary and orange buttons */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #a3a3a3 !important;
+}
+.btn-orange, .btn-orange:hover, .btn-orange:active, .btn-orange:visited {
+    background-color: #a3a3a3 !important;
+}
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: #a3a3a3 !important;
+}
